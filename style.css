@@ -1,0 +1,106 @@
+/*umiversal*/
+
+*{
+    margin: 0;
+    padding: 0;
+     
+}
+
+/* navingation bar and it's list buttons */
+
+body{
+     
+   
+    background-color: azure
+    
+}
+
+.cls-nav-bg{
+    width: 100%;
+    height: 10vh;
+    background-color: aqua;
+    position:fixed;
+    z-index: 50;
+}
+
+/*main header for site name and description*/
+
+
+
+#idheader{
+    background: url(Head1.png);
+    background-size: cover;
+    width: 80vw;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 2px;
+    position: relative;  
+    margin-top: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 42;
+    
+    /*   margin-top: 12vh;
+    margin-bottom: 10px; 
+    display: block;
+    justify-content: center;
+     */
+}
+#idmainheader{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 100;
+    z-index: 45;
+}
+
+#idmaincontent{
+    width: 80vw;
+    /* display: block; */
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin: auto;
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 41;
+}
+
+
+
+/* footer and more info and contact etc */
+
+#idfooter{
+    width: 100vw;
+    border: 2px groove aqua ;
+    height: 520px;
+    padding: 5px;
+    background-image: url(foggfooter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#midforcenter{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 
+#idfooter::before{
+    content: "";
+    background: url(foggfooter.png);
+    width: 80%;
+    height: 600px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 55;
+    
+     
+}
+*/
